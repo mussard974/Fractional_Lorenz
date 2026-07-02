@@ -46,18 +46,14 @@ L.fit(
 L.graph()
 ```
 
-The argument
-
-```python
-kind="relative"
-```
-
 * kind="relative": computes the family of (relative) Lorenz curves. 
 
 * weights: your local variable representing sample weights (None otherwise)
 
 * dominance_param=1: Lorenz curve or order 1 (the usual Lorenz curve) 
 
+* L.graph(): returns the curves of order dominance_param
+  
 ---
 
 ## Absolute Lorenz curves
@@ -85,11 +81,6 @@ L.fit(
 L.graph()
 ```
 
-which computes
-
-\[
-LA_1,\;LA_2,\;LA_3,\;\ldots
-\]
 
 ---
 
@@ -101,8 +92,6 @@ Fractional orders are obtained by specifying
 fractional_param
 ```
 
-For example,
-
 ```python
 L.fit(
     y,
@@ -112,14 +101,7 @@ L.fit(
     kind="relative"
 )
 ```
-
-computes
-
-\[
-LR_{1.4}.
-\]
-
-Likewise,
+Or
 
 ```python
 L.fit(
@@ -131,11 +113,7 @@ L.fit(
 )
 ```
 
-computes
-
-\[
-LA_{2.8}.
-\]
+* fractional_param is the fractional paramter
 
 ---
 
@@ -175,7 +153,7 @@ L.fit(
 gini_absolute = L.inequality_index()
 ```
 
-returns the ordinary **absolute Gini coefficient**.
+returns the ordinary **absolute Gini coefficient** that is the Gini Mean Difference (GMD).
 
 Higher and fractional orders are obtained by modifying
 
