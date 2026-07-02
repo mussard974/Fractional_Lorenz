@@ -193,18 +193,6 @@ FractionalLorenz.minimal_fractional_order(
 )
 ```
 
-The routine searches
-
-\[
-1,\;1.1,\;1.2,\;\ldots,\;1.9,\;2,\;2.1,\;\ldots
-\]
-
-until no crossing remains on the interval
-
-\[
-[0.01,\;0.99].
-\]
-
 ---
 
 # Examples
