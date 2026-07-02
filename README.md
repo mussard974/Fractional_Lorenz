@@ -227,4 +227,6 @@ Example for the fractional order \(1+c\).
 
 # References
 
-If you use this package in academic work, please cite the accompanying paper introducing the fractional Lorenz families and their associated inequality measures.
+If you use this package in academic work, please cite the accompanying paper introducing the fractional Lorenz families and their associated inequality measures:
+
+S. Mussard (2026), A Note on Fractional Lorenz Dominance. 
