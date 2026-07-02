@@ -52,11 +52,11 @@ The argument
 kind="relative"
 ```
 
-computes the family
+* kind="relative": computes the family of (relative) Lorenz curves. 
 
-\[
-LR_1,\;LR_2,\;LR_3,\;\ldots
-\]
+* weights: your local variable representing sample weights (None otherwise)
+
+* dominance_param=1: Lorenz curve or order 1 (the usual Lorenz curve) 
 
 ---
 
