@@ -182,16 +182,19 @@ respectively.
 
 # Minimal Fractional Order
 
-The package provides a routine for determining the smallest fractional order for which two Lorenz curves no longer cross.
+The package provides a routine for determining the smallest fractional order for which two Lorenz curves of y1 and y2 no longer cross.
 
 ```python
 FractionalLorenz.minimal_fractional_order(
-    y,
+    y1,
+    y2,
     weight1,
     weight2,
     kind="relative"
 )
 ```
+
+* weight1 and weight2 are sample weights if available
 
 ---
 
