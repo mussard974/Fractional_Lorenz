@@ -1,5 +1,7 @@
 # Fractional Lorenz Dominance
 
+![Fractional Absolute Lorenz curve](LA1-1.png)
+
 `FractionalLorenz` is a Python package for computing **relative** and **absolute Lorenz curves** of arbitrary integer and fractional order together with their associated inequality indices.
 
 The package implements the recursive Lorenz families and the fractional interpolation introduced in the accompanying paper.
